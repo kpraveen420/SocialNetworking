@@ -1,0 +1,152 @@
+/*Override the default btn class to adjust the left margin*/
+.btn {
+	margin-left: 5px;
+}
+
+/*topbar displays the search, notification, mail and settings buttons*/
+.topbar {
+	padding: 10px;
+	margin-bottom: 0px;
+	color: inherit;
+	background-color: grey
+}
+
+.topbar p {
+	margin-bottom: 15px;
+	font-size: 21px;
+	font-weight: 200
+}
+
+.topbar .container-fluid {
+	max-width: 100%
+}
+
+.topbar {
+	padding-top: 3px;
+	padding-bottom: 1px
+}
+
+.container-fluid .topbar {
+	padding-right: 100px;
+	padding-left: 100px
+}
+
+/*This menu bar displays thw Home Profile Connections and Education options*/
+.menubar {
+	padding: 10px;
+	margin-bottom: 0px;
+	color: inherit;
+	background-color: black
+}
+
+.menubar p {
+	margin-bottom: 0px;
+	font-size: 12px;
+	font-weight: 300;
+	color: white
+}
+
+.menubar .container-fluid {
+	max-width: 100%
+}
+
+.menubar {
+	padding-top: 2px;
+	padding-bottom: 2px
+}
+
+.container-fluid .menubar {
+	padding-right: 100px;
+	padding-left: 100px
+}
+
+searchbar {
+	padding: 350px;
+	padding-right: 0px;
+	color: inherit
+}
+
+.resizedTextBox {
+	width: 300px
+}
+
+/*aligns the colums text to center*/
+.col-xs-1 p {
+	text-align: center
+}
+
+/*overriding the btn link default behavior*/
+.btn-link {
+	color: white
+}
+
+/*overriding the dropdown menu*/
+.dropdown-menu {
+	background-color: black;
+}
+
+.dropdown-menu>li>a {
+	color: white;
+}
+
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus {
+	color: #176496;
+	background-color: black
+}
+
+/*overriding icons button size*/
+.btn {
+	line-height: 0.4
+}
+
+/*Menu list*/
+ul.cssMenu, ul.cssMenu ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+
+ul.cssMenu li {
+	position: relative;
+	float: left;
+	background: none
+}
+
+ul.cssMenu li:hover {
+	background: #AAAAAA
+}
+
+ul.cssMenu li a {
+	display: block;
+	padding: 10px;
+	color: #000000;
+	font-family: Arial, Times New Roman, Tahoma;
+	font-size: 12px
+}
+
+ul.cssMenu ul {
+	display: none;
+	position: absolute;
+	width: 150px;
+	border: 1px solid #AAAAAA;
+	padding: 1px;
+	background: #FFFFFF
+}
+
+ul.cssMenu ul li {
+	background: #F5F5F5;
+	color: #000;
+	border-bottom: 1px solid #DDDDDD;
+	float: none
+}
+
+ul.cssMenu ul li a {
+	width: 100%;
+	display: block;
+	color: #000000
+}
+
+ul.cssMenu li:hover>ul {
+	display: block;
+}

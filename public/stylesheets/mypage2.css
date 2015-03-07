@@ -1,0 +1,86 @@
+.header-section.last-child {
+	margin-left: 1%;
+	float: left;
+	width: 318px;
+	position: relative;
+}
+
+#header {
+	background-color: #3f3f3f
+}
+
+#top-header {
+	background-color: #3f3f3f;
+	background-image: -webkit-linear-gradient(top, #696969 0%, #3f3f3f 100%);
+}
+
+#top-header {
+	z-index: 2;
+	position: relative;
+}
+
+.topbar {
+	padding: 1%;
+	padding-top: 0.5%;
+	/* background-color: gray; */
+}
+
+.topbar .linkedInLogo {
+	padding-left: 7.5%;
+}
+
+searchBox {
+	padding-right: 50%;
+	padding-left: 300px;
+}
+
+ul.cssMenu, ul.cssMenu ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+
+ul.cssMenu li {
+	position: relative;
+	float: left;
+	background: none
+}
+
+ul.cssMenu li:hover {
+	background: #AAAAAA
+}
+
+ul.cssMenu li a {
+	display: block;
+	padding: 10px;
+	color: #000000;
+	font-family: Arial, Times New Roman, Tahoma;
+	font-size: 12px
+}
+
+ul.cssMenu ul {
+	display: none;
+	position: absolute;
+	width: 150px;
+	border: 1px solid #AAAAAA;
+	padding: 1px;
+	background: #FFFFFF
+}
+
+ul.cssMenu ul li {
+	background: #F5F5F5;
+	color: #000;
+	border-bottom: 1px solid #DDDDDD;
+	float: none
+}
+
+ul.cssMenu ul li a {
+	width: 100%;
+	display: block;
+	color: #000000
+}
+
+ul.cssMenu li:hover>ul {
+	display: block;
+}
