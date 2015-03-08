@@ -8,7 +8,8 @@ exports.mySqlException = function(err, res) {
 			// Unique key violations
 			res
 					.send({
-						'error' : 'User with mail id already exists. Please enter a new mail id.'
+//						'error' : 'User with mail id already exists. Please enter a new mail id.'
+						'error' : 'Unique Constraint failed..'
 					});
 		} else if (err.errno === 1452) {
 			// for foreign key violations.

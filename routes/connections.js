@@ -15,7 +15,7 @@
 
 var mysql = require('mysql');
 var queue = require('queue');
-var connPool = require('./enableConnectionPooling');
+var conPool = require('./enableConnectionPooling');
 
 var connPool = new queue();
 
@@ -105,7 +105,7 @@ function terminateConnPool()
 function getDBConn()
 {
 	var dbConn;
-	if(connPool.isConnPool === true)
+	if(conPool.isConnPool === true)
 	{
 		if(getPoolSize() <= 0)
 		{
@@ -131,7 +131,8 @@ function getDBConn()
  * */
 function returnDBconn(dbConn)
 {
-	if(connPool.isConnPool === true)
+	console.log(conPool.isConnPool);
+	if(conPool.isConnPool === true)
 	{
 		addConnection(dbConn);
 	}
